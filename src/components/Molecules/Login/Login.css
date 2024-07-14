@@ -1,0 +1,114 @@
+main {
+    margin-top: 158px;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    padding: 20px; 
+}
+
+.login-container {
+    display: flex;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: auto; /* Cambiado a 'auto' para activar la barra de desplazamiento */
+    max-width: 1200px;
+    width: 100%;
+    margin: 20px;
+}
+
+.login-container .image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-container .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.login-form {
+    padding: 1px;
+    background-color: #0d1926;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 2; 
+    max-width: 500px; 
+}
+
+.login-form h2 {
+    margin-top: -10%;
+    margin-right: 40%;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.login-form label {
+    color: #10e698;
+    margin: 10px 0 5px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.login-form input {
+    width: 90%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.show-password-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.show-password-container input[type="checkbox"] {
+    margin-top: 20px;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.show-password-label {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.login-form button {
+    margin-top: 55px;
+    padding: 13px 120px;
+    border: none;
+    border-radius: 5px;
+    background-color: #10e698;
+    color: white;
+    cursor: pointer;
+    font-weight: bold; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    width: 90%;
+}
+
+footer {
+    background-color: #0056a4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.redes-sociales {
+    width: 30px;
+    height: auto;
+}

@@ -1,0 +1,22 @@
+.not-found-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.not-found-image {
+    margin-top: 100px;
+    width: 500px; 
+    margin-bottom: 30px;
+}
+
+.not-found-title {
+    font-size: 8rem; 
+    color: #333; 
+}

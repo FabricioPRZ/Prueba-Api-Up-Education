@@ -1,0 +1,36 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; /* Evita el desplazamiento horizontal */
+  }
+  
+  .pie-pagina {
+    background-color: #0056a4;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Hace que el footer esté fijo en la parte inferior */
+    bottom: 0; /* Asegura que esté en la parte inferior */
+    left: 0; /* Asegura que esté alineado a la izquierda */
+    width: 100%; /* Ocupa todo el ancho de la página */
+    margin: 0;
+    z-index: 1000; /* Asegura que el footer esté por encima de otros elementos */
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y el alto */
+  }
+  
+  .redes-sociales {
+    width: 60px;
+    height: auto;
+    margin: 0 5px; 
+  }
+  
+  .footer {
+    margin-top: 78px;
+    width: 100%; /* Ocupa todo el ancho de la página */
+    height: 14.4vh;
+    margin: 0;
+    box-sizing: border-box; /* Incluye el padding y el borde en el ancho y el alto */
+  }
+  
